@@ -12,7 +12,7 @@ rng = 10
 print("Hello Melissa")
 while True:
     for i in range (rng):  # (number of questions)
-        n1 = randint(0,6)   # (numbers to choose randomly)
+        n1 = randint(0,10)   # (numbers to choose randomly)
         n2 = randint(0,n1)
         opera = random.choice(r'+-') # random operation choosing could be '+-*/' depend on complexity
         resultat = eval(str(n1) + opera + str(n2))
